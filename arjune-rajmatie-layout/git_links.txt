@@ -1,5 +1,5 @@
 https://github.com/rajmatiea/DWS1/tree/gh-pages
 
-http://rajmatiea.github.io/DWS1/arjune-rajmatie-box-model/box-model.html
+http://rajmatiea.github.io/DWS1/arjune-rajmatie-layout/layout.html
 
 
