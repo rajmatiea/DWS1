@@ -48,7 +48,7 @@ body {
 	background-color: #FCC;
 	margin-bottom: 5px;
 	margin-top: 5px;
-	background-image:    url(../pattern.gif);
+	background-image: url(../pattern.gif);
 	background-repeat: repeat;
 	background-position: center;
 	}
@@ -74,12 +74,15 @@ h1,h2,h3,h4,h5,h6 {
 	text-shadow: 2px 1px 6px #666;	
 }
 
-h2, #grad {
-	background: url(../gradient.gif);
-	}
 
 h1 {
 	text-decoration: blink;
 	font-variant: small-caps;
 	
+	}
+
+table {
+	box-shadow: inset 0px 0px 0px 1px #9FF;
+	overflow: hidden;
+	position: static;
 	}
