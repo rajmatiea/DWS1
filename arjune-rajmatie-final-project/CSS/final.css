@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	body {
+	foreground-color: #FFF
+	background-color: #900
+	box: #FFF;
+	box-shadow: 0px 0px 3px 2px #666;
+	border: 15;
+	border-style: outset;
+	width: 950px;
+	height: 1505px;
+	padding: 50;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	list-style-type: lower-roman;
+	columns: 3;
+	column-count: 3;
+	float: left;
+	clear: both;
+	box-sizing: border-box;
+	resize: both;
+	list-style-position: inside;
+	break-before: column;
+	margin-right: 100px;
+	margin-left: 100px;
+	content: normal;
+	column-width: 50px;
+	column-rule-color: #FFF;
+	column-fill: balance;
+	float: left;
+	margin-left: 5%;
+	width: 85%;
+	height: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	table-layout: auto;
+	marker-offset: auto;
+	position: relative;
+	margin: 10;
+	
+	}
+
+box model {
+	foreground-color: #FFF
+	box-shadow: #333
+	width: 800px;
+	height: auto;
+	float: left;
+	clear: both;
+	margin: 25;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 30;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	min-width: 10px;
+	max-width: 10px;
+
+	border: 15;
+	border-style: rounded;
+	border-left-style: hidden;
+	box-shadow: 2px -2px 0px 2px #999;
+	width: 950;
+	border-color: #903;
+	border-radius: 15;	
+	background-image: url(../images/background.png);
+	background-repeat: repeat;
+	background-position: 10;
+}
+
+column: {
+	alignment-adjust:text-after-edge
+}
+
+
+table: {
+	table-layout: fixed;
+	background-repeat: repeat;
+	text-align: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36;
+	font-style: normal;
+	font-weight: normal;
+	text-shadow: 0px 0px 0px #900;
+	}
+	
+	p {
+	column-width: auto;
+	column-fill: balance;
+	column-gap: normal;
+	icon: url(../images/icon.png);
+	text-align: center;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: left;
+	}
+	
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Ariel', serif;
+	text-indent: 0.25px;
+	white-space: normal;
+	display: block;
+	text-align: left;
+	color: #033;
+	text-decoration: none;
+
+}
+
+.subtext {
+	font-size: 24px;
+	background-image: none;
+	background-repeat: repeat;
+	text-align: justify;
+}

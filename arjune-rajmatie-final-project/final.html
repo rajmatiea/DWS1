@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="UTF-8" />
+<title>Fille Restaurant</title>
+<style type="text/css">
+#location {
+	text-align: right;
+	font-size: 16px;
+}
+</style>
+<script type="text/javascript">
+function MM_jumpMenuGo(objId,targ,restore){ //v9.0
+  var selObj = null;  with (document) { 
+  if (getElementById) selObj = getElementById(objId);
+  if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0; }
+}
+</script>
+<body>
+<script src="js/final.js"> </script>
+<link rel="stylesheet" href="../arjune-rajmatie-final-project/css/final.css" />
+<style type="text/css">
+
+a:link {
+	color: #06F;
+}
+a:visited {
+	color: #63C;
+	text-align: left;
+	font-size: 18px;
+	background: fff;
+}
+
+body,td,th {
+	font-size: 36px;
+}
+.center {
+}
+.center {
+}
+</style>
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<p><img src="images/logo.png" width="884" height="125" alt=""></p>
+<table width="750" border="0" align="center" cellpadding="3" cellspacing="3">
+  <tr>
+    <td width="126" class="center" id="bkcolor"><a href="index.html" class="subtext">Home</a></td>
+    <td width="126" class="center"><a href="index.html" align="center" class="subtext"> About  Us </a></td>
+    <td width="126"><span class="center"><span class="center"><a href="index.html" class="subtext"><span class="center"><span class="center">Menu<span class="center"></span></span></span></a></span></span></td>
+    <td width="126"><a href="index.html" align="center" class="subtext"><span class="center">Location</span></a></td>
+    <td width="126"><a href="index.html" class="subtext">Contact Us</a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="782" height="149" border="0" align="center" cellpadding="3" cellspacing="3">
+  <tr>
+    <td width="432" class="center"><p class="subtext">&nbsp;</p>
+    <p><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('food','','images/food2.png',1)"><img src="images/food.png" alt="delicious" width="388" height="316" id="food"></a></p></td>
+    <td width="329"><p class="subtext">Menu</p>
+      <ul>
+        <li class="subtext">Pasta </li>
+        <li class="subtext">Appetizers</li>
+        <li class="subtext">Pizza</li>
+        <li class="subtext">Soup &amp; Salads</li>
+        <li class="subtext">Chicken</li>
+        <li class="subtext">Beef, Pork &amp; Veal</li>
+        <li class="subtext">Seafood</li>
+        <li class="subtext">Oven-Baked</li>
+        <li class="subtext">Signature Dishes</li>
+        <li class="subtext">Dessert</li>
+        <li class="subtext">Kids Dining</li>
+        <li class="subtext">Gluten Free</li>
+        <li class="subtext">Wines </li>
+    </ul></td>
+  </tr>
+</table>
+<form name="form1" method="post" action="">
+  <p>&nbsp;</p>
+  <p class="center"><span class="subtext">Place your order
+  </span>
+  <p align="center">Name
+    <input name="Name" type="text" id="Name" value="Name" size="35">
+    <br>
+    Email
+  <input name="Email" type="text" id="Email" value=username@domain size="35" maxlength="50">
+  </p>
+  <p align="center">
+    <label>Telephone #
+      <input type="text" name="phone" id="phone" value=000-0000-0000>
+    </label>
+  </p>
+  <p align="center">Choose your Location
+    <select name="jumpMenu" size="1" id="jumpMenu">
+      <option value="enter">Orlando</option>
+      <option value="enter">Sanford</option>
+      <option value="enter">Tampa</option>
+      <option value="enter">Clermont</option>
+    </select>
+    <input type="button" name="go_button" id= "go_button" value="Go" onClick="MM_jumpMenuGo('jumpMenu','parent',0)">
+  </p>
+  <p align="center">&nbsp;</p>
+  <p align="center">Please select from our Menu items
+    <select name="Menu item" size="1" id="menu">
+      <option value="enter">Choose</option>
+      <option value="enter">Pasta</option>
+      <option value="enter">Appetizers</option>
+      <option value="enter">Pizza</option>
+      <option value="enter">Soup </option>
+      <option value="enter">Salad</option>
+      <option value="enter">Beef</option>
+      <option value="enter">Pork</option>
+      <option value="enter">Veal</option>
+      <option value="enter">Seafood</option>
+      <option value="enter">Dessert</option>
+    </select>
+  </p>
+  <p align="center">Quantity items needed  
+    <select name="select" id="select">
+      <option value="enter">0</option>
+      <option value="enter">1</option>
+      <option value="enter">2</option>
+      <option value="enter">3</option>
+      <option value="enter">4</option>
+      <option value="enter">5</option>
+      <option value="enter">6</option>
+      <option value="enter">7</option>
+      <option value="enter">8</option>
+      <option value="enter">9</option>
+      <option value="enter">10</option>
+    </select>
+    <br>
+    <br>
+  </p>
+  <p align="center">
+    <textarea name="Questions" cols="50" rows="5" id="Questions"></textarea>
+  </p>
+  <strong> <p align="center">Special request to the Chef on your order.  </p> </strong>
+  <p align="center">
+  
+      
+    <input name="submit" type="submit" class="subtext" id="popUpYes" value="Submit">      
+    <input name="Reset" type="Reset" class="subtext" id="popUpYes" value="Reset">
+  </p>
+  <div align="center"></div>
+  <p>&nbsp;</p>
+</form>
+<p>Information taken from <a href="www.wikipedia.org">www.<strong>wikipedia</strong>.org</a> and <a href="www.carabas.com">www.carabas.com</a></p>
+</body>
+</html>
