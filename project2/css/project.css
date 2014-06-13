@@ -1,0 +1,78 @@
+	/*Project2 Assignment*/
+
+	body{
+		font-size: 90%;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:100;
+		font-style:inherit;
+		line-height:normal;
+		text-align:left;
+		alignment-baseline: center;
+		color:# FCF; /*changes color of the whole text*/
+		margin-top: 10; 
+		background-color: #F1BB77;  
+		}
+	
+	h1{
+		text-align:center;  /*centers main heading text*/
+		text-shadow: #FF6600;	
+		}
+
+	h2,h3,h4,h5{
+		text-align:center;  /*centers sub text in green*/
+		color: #4A7117;    
+		}
+
+	p{
+		text-align:center;
+		}
+	
+	ul, li, ol{
+		list-style-type: lower-roman;  /*list in roman numeral*/
+		margin-left: 25%;
+		}
+
+	figcaption{
+		text-align:center; /*caption center with shadow applied*/
+		text-shadow:#996600;
+		}
+	
+	header, footer{
+		text-align:center;
+		}
+	
+	@font-face{
+		font-family: Arial, Helvetica, sans-serif;
+		}
+		
+	a:link{
+		background-color: transparent;  /*active background transparent*/
+		}
+	
+	a:visited{
+		color: #660000; /*visited link changes color*/
+		}
+		
+	a:hover{
+		color: #FFFF33; /*link changes color when hovered*/
+		}
+	
+	a:active{
+		color: #0066FF; /*active link are blue*/
+		}
+		
+	box-model{
+		width: auto;
+		height: auto;
+		padding: 20;
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		box-shadow: inset#666;
+		border: 10px;
+		border-style: inset;
+		margin: auto;
+		border-style: outset;
+		}
+	
