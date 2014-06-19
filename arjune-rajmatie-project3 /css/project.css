@@ -1,0 +1,132 @@
+	/*Project3 Assignment*/
+
+	#wrapper{  /*wrapper with a solid background*/
+	width: 75%;
+	height: auto;
+	margin: 0px auto;
+	background-color: #F1BB77;
+	border-color: #999;
+	border-style: inset;
+	border-radius: 20px;	
+	}
+	
+	#logo{ /*logo placed at the very top of the page*/
+		float: left;
+		width: 960px;
+		margin-top: 20px;
+		margin-left: 20px;
+		
+		}
+		
+		
+	#nav{ /*navigation items with gradient background*/
+		float: right;
+		clear: none;
+		width: 100%;
+		margin: auto;
+		font-size: 1em;	
+		background-color: #FF9933;
+	
+		}	
+		
+	#image, #ad{  /*images floated to the left with caption*/
+		float: left;
+		clear: none;
+		width: 560px;
+		margin-right: 10px;
+		height:auto;
+		
+		
+		}	
+		
+	#menu{ /*paced to the right, and has a image background*/
+		float: left;
+		width: 390px;
+		margin: 10px; 
+		padding: 12px;
+		background-image: url(../images/menubg.jpg);
+		background-color: #FFFFFF;
+		
+		
+	}
+	
+	body{
+	font-size: 90%;  /*enables font scaling*/
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: 100;
+	font-style: inherit;
+	line-height: normal;
+	text-align: left;
+	alignment-baseline: middle;
+	color: #000000; /*changes color of the whole text*/
+	background-repeat: repeat;
+	background-image: url(../images/backgd.jpg);	
+	}
+	
+	h1{
+		text-align:center;  /*centers main heading text*/
+		text-shadow: inherit;	
+		}
+
+	h2,h3,h4,h5{
+		text-align:center;  /*centers sub text in green*/
+		color: #D12800;    
+		}
+
+	p{
+		text-align:center;  /*centers paragraph*/
+		}
+	
+	ul, li, ol{
+		list-style-type: lower-roman;  /*list in roman numeral*/
+		margin-left: 25%;
+		}
+
+	figcaption{
+		text-align:center; /*caption center with shadow applied*/
+		text-shadow: inherit;
+		}
+
+	footer{
+		text-align: center;
+		margin: 10px;
+		padding: 20px;
+		}
+		
+	
+	@font-face{
+		font-family: Arial, Helvetica, sans-serif;
+		}
+		
+	a:link{
+		background-color: #CC6600;
+		background: linear-gradient(#FFF, #FF9966); /*gradient used for navigation button*/
+		padding: 5px;  /*active background transparent*/
+		}
+	
+	a:visited{
+		color: #333333; /*visited link changes color*/
+		}
+		
+	a:hover{
+		color: #FFFF33; /*link changes color when hovered*/
+		}
+	
+	a:active{
+		color: #0066FF; /*active link are blue*/
+		}
+		
+	box-model{
+		width: auto;
+		height: auto;
+		padding: 0;
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		border: 10px;
+		border-style: inset;
+		margin: auto;
+		border-style: outset;
+		}
+	
