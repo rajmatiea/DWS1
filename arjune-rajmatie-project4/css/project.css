@@ -1,0 +1,194 @@
+	/* Project4 Assignment */
+
+	
+
+	#wrapper{  /*wrapper with a solid background*/
+	width: 75%;
+	margin: 0 auto;
+	background-color: #F1BB77;
+	background-size: auto;
+	border-color: #999;
+	border-style: none;
+	border-radius: 10px;
+	height: 0 auto;
+	
+	
+	
+	}
+	
+	#logo{ /*logo placed at the very top of the page*/
+		float: left;
+		clear: both;
+		width: 80%;
+		margin-top: 20px;
+		margin-left: auto;
+		
+		}
+		
+		
+	#nav{ /*navigation items with gradient background*/
+	float: right;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1em;
+	background-color: #FF9933;
+	font-weight: normal;	
+		}	
+		
+	.image, .ad{  /*images floated to the left with caption*/
+		float: left;
+		clear: both;
+		width: 550px;
+		margin-right: 10px;
+		margin: 6px;
+		height:auto;
+		
+		
+		}	
+		
+	.menu{ /*placed to the right, and has a image background*/
+		float: left;
+		clear: right;
+		width: 370px;
+		margin: 6px; 
+		padding: 18px;
+		background-image:   url(../images/menubg.jpg);
+		background-color: #FFFFFF;
+		
+		
+	}
+	
+	body{
+	font-size: 90%;  /*enables font scaling*/
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: 100;
+	font-style: inherit;
+	line-height: normal;
+	text-align: left;
+	alignment-baseline: middle;
+	color: #000000; /*changes color of the whole text*/
+	background-repeat: repeat; 
+	background-attachment: fixed;
+	background-image: url(../images/backgd.jpg);
+
+	}
+	
+	h1{
+		text-align:center;  /*centers main heading text*/
+		text-shadow: inherit;	
+		}
+
+	h2,h3,h4,h5{
+		text-align:center;  /*centers sub text in green*/
+		color: #D12800;    
+		}
+
+	p{
+		text-align:center;  /*centers paragraph*/
+		}
+	
+	ul, li, ol{
+		list-style-type: lower-roman;  /*list in roman numeral*/
+		margin-left: 25%;
+		}
+
+	figcaption{
+		text-align:center; /*caption center with shadow applied*/
+		text-shadow: inherit;
+		}
+
+	table{
+	margin: 20px;
+	padding: 18px;
+	text-align: left;
+	letter-spacing: normal;
+	font-size: 1.25em;
+	width: 60%;
+	margin-left: 10%;
+	border: groove;
+	border-color: #CC6600;
+	background-color: #FFCCCC;
+	border-spacing: 1;
+	table-layout: auto;
+	content: normal;
+	float: left;
+	clear: both;
+	border: #CC6600;
+	align: center;
+	cell-spacing: 12px;
+	border-style: inset;	
+	
+		}
+	
+	form{
+	width: 98%;
+	float: none;
+	clear: both;
+	padding: 5px;
+	margin-top: 10px;
+	margin: 5px;
+	font-size: 1em;
+	color: #000000;
+	border: none;
+	
+	
+	text-align: left;
+	background-image: inherit;
+	outline-color: #CC6600;		
+		}
+
+
+	#footer{
+		text-align: center;
+		margin: 10px;
+		width: 100%;
+		padding: 20px;
+		
+	}
+		
+	
+	aside{
+		float: left;
+		clear: rigth;
+		width: 150px;
+		height: auto;
+		padding: 15px;
+		margin: 15px;
+		background-color: #000000
+		}
+	
+	@font-face{
+		font-family: Arial, Helvetica, sans-serif;
+		}
+		
+	a:link{
+		background-color: #CC6600;
+		background: linear-gradient(#FFF, #FF9966); /*gradient used for navigation button*/
+		padding: 5px;  /*active background transparent*/
+		}
+	
+	a:visited{
+		color: #333333; /*visited link changes color*/
+		}
+		
+	a:hover{
+		color: #FFFF33; /*link changes color when hovered*/
+		}
+	
+	a:active{
+		color: #0066FF; /*active link are blue*/
+		}
+	
+	tr:hover {
+ 		background: #FCFFFF;
+		}
+
+	form:hover{
+   	 	background:#FFCC99;
+		}
+
+	form:focus{
+		animation-direction:normal;
+		
+		}
